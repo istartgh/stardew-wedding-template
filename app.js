@@ -125,6 +125,18 @@ document.querySelectorAll('.pixel-petals').forEach((petalField, fieldIndex) => {
   }
 })
 
+const meteorField = document.querySelector('.meteor-field')
+if (meteorField) {
+  for (let index = 0; index < 6; index += 1) {
+    const meteor = document.createElement('i')
+    meteor.style.left = `${58 + ((index * 17) % 46)}%`
+    meteor.style.top = `${-6 + (index % 3) * 12}%`
+    meteor.style.setProperty('--dur', `${3.2 + (index % 4) * 0.8}s`)
+    meteor.style.setProperty('--delay', `${-(index * 1.9)}s`)
+    meteorField.append(meteor)
+  }
+}
+
 if (!reducedMotion.matches) {
   const heroMountains = document.querySelector('.hero-mountains')
   let parallaxFrame
