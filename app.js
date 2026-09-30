@@ -12,8 +12,8 @@ const weddingConfig = {
   calendarDay: '01',
   calendarYear: '2027',
   venue: '湖南省岳阳市华容县宏发国际大酒店',
-  venueShort: '湖南省岳阳市华容县',
-  navigationUrl: 'https://uri.amap.com/search?keyword=%E6%B9%96%E5%8D%97%E7%9C%81%E5%B2%B3%E9%98%B3%E5%B8%82&src=stardew-wedding&callnative=1',
+  venueShort: '宏发大酒店',
+  navigationUrl: 'https://uri.amap.com/search?keyword=%E5%8D%8E%E5%AE%B9%E5%8E%BF%E5%AE%8F%E5%8F%91%E5%9B%BD%E9%99%85%E5%A4%A7%E9%85%92%E5%BA%97&src=stardew-wedding&callnative=1',
   schedule: [
     { label: '签到', time: '11:00', description: '领取今日任务，与老朋友相见' },
     { label: '仪式', time: '12:00', description: '见证拥抱、誓言与交换戒指' },
