@@ -1,8 +1,8 @@
 import rsvpConfig from './rsvp-config.js'
 
 const weddingConfig = {
-  groom: '陶先生',
-  bride: '李女士',
+  groom: '陶源',
+  bride: '李玲',
   groomLatin: 'TAO',
   brideLatin: 'LI',
   weddingDate: '2027-01-01T11:00:00+08:00',
