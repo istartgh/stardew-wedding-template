@@ -16,7 +16,6 @@ const weddingConfig = {
   navigationUrl: 'https://uri.amap.com/search?keyword=%E5%8D%8E%E5%AE%B9%E5%8E%BF%E5%AE%8F%E5%8F%91%E5%9B%BD%E9%99%85%E5%A4%A7%E9%85%92%E5%BA%97&src=stardew-wedding&callnative=1',
   schedule: [
     { label: '签到', time: '11:00', description: '领取今日任务，与老朋友相见' },
-    { label: '仪式', time: '12:00', description: '见证拥抱、誓言与交换戒指' },
     { label: '喜宴', time: '12:00', description: '共享一场丰盛的冬日宴席' },
     { label: '合影', time: '14:00', description: '保存这一份快乐存档' },
   ],
